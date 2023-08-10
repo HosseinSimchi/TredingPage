@@ -8,6 +8,7 @@
     grid-gap: 25px;
     grid-template-areas: " a a c"
                           "b d c";
+    padding:30px;
 }
 
 .main .main-1{
@@ -26,9 +27,73 @@
 .main .main-3 {
     grid-area: c;
     line-height: 2;
+    background-color: hsl(240, 100%, 5%);
+    padding: 25px;
+}
+
+.main .main-3 h1 {
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+}
+
+.main .main-3 h5{
+    color: hsl(36, 100%, 99%);
+    font-size: 19px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.main .main-3 h5:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.main .main-3 p{
+    color:hsl(236, 13%, 42%);
+    font-size: 17px;
+}
+
+.main .main-3 .item-1 {
+    border-bottom: 2px solid hsl(236, 13%, 42%);
+    margin-bottom: 12px;
+    padding: 8px;
+
+}
+
+.main .main-3 .item-2 {
+    border-bottom: 2px solid hsl(236, 13%, 42%);
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+.main .main-3 .item-3 {
+    padding: 8px;
 }
 
 .main .main-4 {
     grid-area: d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.main .main-4 p {
+    color:hsl(233, 8%, 79%);
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.main .main-4 button {
+    padding : 13px;
+    justify-self: end;
+    width: 42%;
+    background-color:hsl(240, 100%, 5%); 
+    color: hsl(36, 100%, 99%);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
 
